@@ -1,0 +1,37 @@
+project-root/ 
+├── dist/
+├── node_modules/
+├── src/
+│   ├── components/
+│   │   ├── Header.tsx
+│   │   ├── Footer.tsx
+│   │   └── Sidebar.tsx
+│   ├── pages/
+│   │   ├── Home.tsx
+│   │   ├── About.tsx
+│   │   └── Contact.tsx
+│   ├── services/
+│   │   ├── api.ts
+│   │   └── auth.ts
+│   ├── utils/
+│   │   ├── helpers.ts
+│   │   └── constants.ts
+│   ├── App.tsx
+│   ├── index.tsx
+│   └── styles/
+│       ├── App.css
+│       └── index.css
+├── test/
+│   ├── components/
+│   │   ├── Header.test.tsx
+│   │   └── Footer.test.tsx
+│   └── utils/
+│       └── helpers.test.ts
+├── .gitignore
+├── package.json
+├── tsconfig.json
+└── README.md
+    
+.project-root {
+    position: none;
+}
