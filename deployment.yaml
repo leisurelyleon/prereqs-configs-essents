@@ -31,4 +31,3 @@ spec:
             cpu: "250m"
       imagePullSecrets:
       - name: your-registry-key
-      
